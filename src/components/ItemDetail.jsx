@@ -8,7 +8,7 @@ const ItemDetail = ({items}) => {
 
   return (
     <div>
-      <h1>Item{itemId}</h1>
+      <h1>Item {itemId}</h1>
       {selectedItem && <p>{selectedItem.description}</p>}
     </div>
   );
